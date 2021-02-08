@@ -17,6 +17,7 @@ class Stack:
     def size(self):
         return len(self.items)
 
+
 x = Stack()
 
 x.push('monkey')
@@ -49,6 +50,8 @@ class myStack:
         self.length -= 1
         return popped_item
 
+    def __contain_(self, item):
+        return item in self.arr
 
 
 estack = myStack()
